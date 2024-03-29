@@ -107,5 +107,6 @@ public class ATMinterface {
         BankAccount userAccount = new BankAccount(1000.0);
         ATM atm = new ATM(userAccount);
         atm.run();
+        scanner.close();
     }
 }
